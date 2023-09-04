@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Header from './components/Header';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 import Banner from '../img/banner.png';
 import PizzaCuma from '../img/pizza1.png';
@@ -57,6 +58,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
