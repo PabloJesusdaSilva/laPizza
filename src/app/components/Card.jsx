@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Card({ image, title }) {
   return(
-    <div className="w-1/5 flex flex-col items-center text-center">
+    <div className="w-1/5 flex flex-col items-center text-center ">
       <div>
         <Image src={image} />
       </div>

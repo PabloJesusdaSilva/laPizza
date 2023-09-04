@@ -19,7 +19,7 @@ export default function Home() {
       <main className='w-full flex flex-col items-center gap-4 my-20'>
         <h1 className='text-4xl font-semibold'>Mais Vendidas</h1>
 
-        <section className='flex justify-center gap-x-10 mt-16'>
+        <section className='flex justify-center gap-x-12 mt-16'>
           <Card 
             image={PizzaCuma}
             title='La Cuma' 
@@ -38,8 +38,8 @@ export default function Home() {
           />
         </section>
 
-        <section className='grid grid-cols-2 w-3/4 mt-40'>
-          <Image src={Store} alt='Foto da fachada da loja' />
+        <section className='grid grid-cols-2 w-5/6 mt-40'>
+          <Image className='hidden md:block' src={Store} alt='Foto da fachada da loja' />
 
           <div className='flex flex-col justify-center ml-8 gap-y-12'>
             <h1 className='text-4xl font-semibold tracking-wide'>
