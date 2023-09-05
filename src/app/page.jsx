@@ -17,9 +17,9 @@ export default function Home() {
       <Header image={Banner} />
 
       <main className='w-full flex flex-col items-center gap-4 my-20'>
-        <h1 className='text-4xl font-semibold'>Mais Vendidas</h1>
+        <h1 className='text-3xl font-semibold'>Mais Vendidas</h1>
 
-        <section className='flex justify-center gap-x-12 mt-16'>
+        <section className='flex flex-col items-center w-full md:flex-row'>
           <Card 
             image={PizzaCuma}
             title='La Cuma' 
@@ -38,11 +38,11 @@ export default function Home() {
           />
         </section>
 
-        <section className='grid grid-cols-2 w-5/6 mt-40'>
+        <section className='w-3/4 mt-40 md:grid grid-cols-2'>
           <Image className='hidden md:block' src={Store} alt='Foto da fachada da loja' />
 
-          <div className='flex flex-col justify-center ml-8 gap-y-12'>
-            <h1 className='text-4xl font-semibold tracking-wide'>
+          <div className='flex flex-col justify-center w-full md:ml-8 gap-y-12'>
+            <h1 className='text-2xl font-semibold tracking-wide'>
               Sobre a La P 
               <span className='text-yellow-500'>i</span>
               <span className='text-red-500'>z</span>
